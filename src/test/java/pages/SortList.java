@@ -96,10 +96,6 @@ public class SortList extends ScreenBase {
 		Assert.isTrue(isSorted,"The items are sorted");
 	}
 	
-	
-	
-	
-	
-	
+
 
 }

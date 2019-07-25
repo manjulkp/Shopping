@@ -81,12 +81,6 @@ public class ShoppingListAdd_Page extends ScreenBase {
 
 	public void launchMyShoppingList() {
 		clickAble(driver, layouSelectWithAddItemBottom);
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 	}
 

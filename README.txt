@@ -53,5 +53,30 @@ Improvement for framework
 7.Test Data configuration to framework need to though for end to end system.
 8.Rich reporting tools can be plugged in .
 
+///////////////////
+
+Code Smell – Large Class:
+When you try to incorporate all the elements of a page in one single page class, 
+it becomes too big to read, maintain etc. The class might contain too many responsibilities
+ to handle. It should be restructured and broken into smaller classes.
+
+I would expect my page objects to satisfy the Single Responsibility Responsible.
+
+I personally prefer to create multiple levels of abstractions to satisfy that
+ when I create my framework to come up with a robust, reliable, readable tests.
+  I would like to show how It can be achieved using Arquillian Graphene – page fragments concepts.
+
+Why Abstract:
+Single Responsibility – A class should have one, and only one, reason to change.
+Separation of concerns
+Very easy to read code
+Very easy to maintenance
+Avoid redundancy
+Page Fragments:
+Concept wise it is same like Page Objects. Both Page Objects and Page Fragments, 
+encapsulate some elements in the page and behaviors. Main difference between them is – When Page object encapsulates  a specific page, a page fragment encapsulates a component/element/widget in the page. So our page object contains all the page fragments instead of the page elements.
+
+
+NOTE : Have look at the skeleton of the class creation in ideal case ,presently it is tightly coupled .
 Regards
 Manjula

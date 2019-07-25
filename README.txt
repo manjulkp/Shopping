@@ -51,7 +51,7 @@ Improvement for framework
 5.Precondition and postcondition of the app needs to considered .
 6.If AWS or any device farm is used ,then start of Appium needs to handled differently -right now it starts on locally .
 7.Test Data configuration to framework need to though for end to end system.
-8.High reporting tools can be plugged in .
+8.Rich reporting tools can be plugged in .
 
 Regards
 Manjula

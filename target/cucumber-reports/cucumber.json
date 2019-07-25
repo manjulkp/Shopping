@@ -1,0 +1,237 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-25T14:52:56.991Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1163568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Base.before(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Validate the sorting of the list items",
+        "description": "",
+        "id": "title-of-your-feature;validate-the-sorting-of-the-list-items",
+        "after": [
+          {
+            "result": {
+              "duration": 207704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Base.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1013426048,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am in the welcome screen",
+            "match": {
+              "location": "ShoppingListAdd_Step.i_am_in_the_welcome_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2949822663,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select the layout with add item at the bottom",
+            "match": {
+              "location": "ShoppingListAdd_Step.i_select_the_layout_with_add_item_at_the_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1806136641,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I see my shopping  list screen",
+            "match": {
+              "location": "ShoppingListAdd_Step.i_see_my_shopping_list_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13103440741,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I add a new list as \"HomeList\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HomeList\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ShoppingListAdd_Step.i_add_a_new_list_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4147509924,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I add \"bread\" to the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bread\"",
+                  "offset": 6
+                }
+              ],
+              "location": "ShoppingListAdd_Step.i_add_to_the_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5349877506,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I add \"cakes\" to the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cakes\"",
+                  "offset": 6
+                }
+              ],
+              "location": "ShoppingListAdd_Step.i_add_to_the_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4898922190,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I add \"apple\" to the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"apple\"",
+                  "offset": 6
+                }
+              ],
+              "location": "ShoppingListAdd_Step.i_add_to_the_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8689719752,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select settings",
+            "match": {
+              "location": "ShoppingListAdd_Step.i_select_settings()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5153285433,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select \"sort order\" in the setting screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sort order\"",
+                  "offset": 9
+                }
+              ],
+              "location": "ShoppingListAdd_Step.i_select_in_the_setting_screen(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7296852618,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I select \"alphabetical\" in the sort order",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alphabetical\"",
+                  "offset": 9
+                }
+              ],
+              "location": "ShoppingListAdd_Step.i_select_in_the_sort_order(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4850572188,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "select \"HomeList\" from the hamburger menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HomeList\"",
+                  "offset": 7
+                }
+              ],
+              "location": "ShoppingListAdd_Step.select_from_the_hamburger_menu(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1503497677,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the items are stored in alphabetical order",
+            "match": {
+              "location": "ShoppingListAdd_Step.the_items_are_stored_in_alphabetical_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featurefile/ShoppingList.feature",
+    "tags": []
+  }
+]

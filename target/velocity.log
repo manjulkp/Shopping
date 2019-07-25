@@ -1,0 +1,24 @@
+2019-07-23 01:56:58,676 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2019-07-23 01:56:58,676 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,678 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2019-07-23 01:56:58,678 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,705 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2019-07-23 01:56:58,705 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2019-07-23 01:56:58,705 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2019-07-23 01:56:58,706 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2019-07-23 01:56:58,706 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2019-07-23 01:56:58,706 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2019-07-23 01:56:58,706 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,710 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2019-07-23 01:56:58,710 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,713 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2019-07-23 01:56:58,713 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,735 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2019-07-23 01:56:58,735 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,742 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2019-07-23 01:56:58,742 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,743 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2019-07-23 01:56:58,745 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,748 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2019-07-23 01:56:58,748 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-23 01:56:58,754 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
